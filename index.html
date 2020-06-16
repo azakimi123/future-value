@@ -1,24 +1,26 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en-us">
-<head>
-<meta charset="utf-8">
-<title>Future Value</title>
-<link rel="stylesheet" href="reset.css">
-<link rel="stylesheet" href="styles.css">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Future Value</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-<h1>Investment Calculator</h1>
-Amount invested (principal)
-<input type="text" id="one" size="8"> <br>
-Annual rate (example: .08)
-<input type="text" id="two" size="6"> <br>
-Number of years
-<input type="text" id="three" size="5"> <br>
-Periods per year
-<input type="text" id="four" size="5"> <br>
-<button type="button" onclick="doFV()">Compute future value</button>
-<div id="outputDiv"></div>
-</body>
-<script src="index.js"></script>
+  <body>
+    <section class="container">
+      <h1>Investment Calculator</h1>
+      Amount invested (principal)
+      <input class="input-field" type="text" id="one" /> <br />
+      Annual rate (example: .08)
+      <input class="input-field" type="text" id="two" /> <br />
+      Number of years
+      <input class="input-field" type="text" id="three" /> <br />
+      Periods per year
+      <input class="input-field" type="text" id="four" /> <br />
+      <button type="button" onclick="doFV()">Compute future value</button>
+      <div id="outputDiv"></div>
+    </section>
+  </body>
+  <script src="index.js"></script>
 </html>
